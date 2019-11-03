@@ -1,0 +1,17 @@
+{
+    "name": "grahl/fake_ext_ldap",
+    "description": "Dummy package to avoid pulling in the actual extension from symfony/ldap.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hendrik Grahl",
+            "email": "hendrik@grahl.ch"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "provide": {
+        "ext-ldap": "999"
+    }
+}
