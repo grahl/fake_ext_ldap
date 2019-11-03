@@ -13,5 +13,8 @@
     "require": {},
     "provide": {
         "ext-ldap": "*"
+    },
+    "replace": {
+        "ext-ldap": "*"
     }
 }
