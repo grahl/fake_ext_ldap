@@ -12,6 +12,6 @@
     "minimum-stability": "dev",
     "require": {},
     "provide": {
-        "ext-ldap": "999"
+        "ext-ldap": "*"
     }
 }
